@@ -1,0 +1,22 @@
+{
+  "name": "survey-example",
+  "displayName": "Survey Example",
+  "expo": {
+    "name": "survey-example",
+    "slug": "survey-example",
+    "description": "Example app for survey",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
