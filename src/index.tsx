@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
 
-export function addOne(input: number) {
+export function addOne(input: number): number {
   return input + 1;
 }
 
-export function Counter() {
+export function Counter(): JSX.Element {
   const [count, setCount] = React.useState(0);
 
   return (
