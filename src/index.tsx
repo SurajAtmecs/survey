@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button, NativeModules, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export function addOne(input: number) {
   return input + 1;
@@ -23,6 +23,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     height: 200,
   },
-})
-
-export default NativeModules.Survey;
+});
